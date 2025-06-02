@@ -28,7 +28,12 @@ npx expo run:android
 ```
 
 Enjoy!
-
+## Next steps
+- [ ] Resolve the buggy of database
+- [ ] Better UI
+- [ ] Server status check
+- [ ] Animation for sending text
+- [ ] Support Text-to-Speech
 ## Contributing
 This project is open source and contributions are welcome!
 
