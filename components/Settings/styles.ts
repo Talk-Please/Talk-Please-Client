@@ -8,6 +8,7 @@ export const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'center',
         marginBottom: 10,
+        padding: 8,
     },
     urlInput: {
         flex: 2,

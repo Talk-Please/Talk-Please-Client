@@ -30,7 +30,7 @@ export const MessageTextInput: React.FC<MessageTextInputProps> = ({
       onChangeText={onChangeText}
       style={styles.input}
       multiline
-      numberOfLines={10}
+      numberOfLines={100}
       placeholder="Type your message here..."
       placeholderTextColor={color.onSurfaceVariant}
       selectionColor={color.primary}
@@ -50,5 +50,6 @@ const styles = StyleSheet.create({
     input: {
         marginBottom: 20,
         borderRadius: 8,
+        minHeight: 200,
     }
 });

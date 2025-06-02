@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { View } from 'react-native';
-import { Modal, Portal, Text, Card, TextInput } from 'react-native-paper';
+import { Card, Modal, Portal, Text, TextInput } from 'react-native-paper';
 import { styles } from './styles';
 
 interface ServerSettingsModalProps {
@@ -36,7 +36,7 @@ export const ServerSettingsModal: React.FC<ServerSettingsModalProps> = ({
     return (
         <Portal>
         <Modal visible={visible} onDismiss={onDismiss} contentContainerStyle={styles.container}>
-            <Card style={{ flex: 1 }}>
+            <Card>
             <Card.Title title="Address Settings" />
             <Card.Content>
                 <View style={styles.inputContainer}>

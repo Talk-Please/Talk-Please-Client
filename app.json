@@ -16,7 +16,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.kaze_desu.talk_please"
     },
     "web": {
       "bundler": "metro",
@@ -59,6 +60,6 @@
         "projectId": "415f2c02-afd2-48eb-8258-46a2d7057bb9"
       }
     },
-    "owner": "kaze-desu"
+    "owner": "xiaohuo-desu"
   }
 }
