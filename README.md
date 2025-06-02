@@ -4,11 +4,11 @@
 This is a third-part mobile Client of TTS-Voice-Wizard, based on React Native.
 Use this app could help you send the text to the TTS-Voice-Wizard.
 
-### Getting started
+## Getting started
 
 Go release to get the latest version of the app: [TALK PLEASE](https://github.com/Talk-Please/Talk-Please-Client/releases)
 
-### Settings
+## Settings
 1. Open the app and navigate to the settings page.
 2. Enter the URL of your TTS server (e.g., `http://your-server-ip:port`).
 3. Save the settings.
@@ -16,24 +16,24 @@ Go release to get the latest version of the app: [TALK PLEASE](https://github.co
 You should ensure that the TTS-Voice-Wizard is running on the same network as your device.
 Use your computer's IP address to be your-server-ip.
 
-### Build your own
-1. Install dependencies
+## Build your own
+#### Install dependencies
 ```bash
 npm install
 ```
 
-2. run the app in development mode
+#### run the app in development mode
 ```bash
 npx expo run:android
 ```
 
 Enjoy!
 
-### Contributing
+## Contributing
 This project is open source and contributions are welcome!
 
-### Acknowledgements
+## Acknowledgements
 - [TTS-Voice-Wizard](https://github.com/VRCWizard/TTS-Voice-Wizard)
 
-### License
+## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
